@@ -33,7 +33,7 @@ class mywindow(QtWidgets.QMainWindow):
         result = 1 / Combinatoric.combinations_without_repeats(n, m)
 
         # Вывести результат в поле для ответа
-        str_result = "{:01.12}".format(result)
+        str_result = "{:01.12f}".format(result)
         self.ui.result_lineEdit.setText(str_result)
 
 if __name__ == '__main__': 
